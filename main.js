@@ -3,11 +3,11 @@ var lockToggle = function() {
     $("#PADLOCK").addclass("fa-unlock-alt");
     $("#PADLOCK").removeclass("fa-lock");
   }
-  if else (($"#PADLOCK").hasClass("fa-unlock-alt")) {
+  if else ($("#PADLOCK").hasClass("fa-unlock-alt")) {
     $("#PADLOCK").addclass("fa-unlock");
     $("#PADLOCK").removeclass("fa-unlock-alt");
   }
-  if else (($"#PADLOCK").hasClass("fa-unlock")) {
+  if else ($("#PADLOCK").hasClass("fa-unlock")) {
     $("#PADLOCK").addclass("fa-lock");
     $("#PADLOCK").removeclass("fa-unlock");
   }
