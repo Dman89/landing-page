@@ -1,5 +1,5 @@
 var lockToggle = function() {
-  if (($"#PADLOCK").hasClass("fa-lock")) {
+  if ($("#PADLOCK").hasClass("fa-lock")) {
     $("#PADLOCK").addclass("fa-unlock-alt");
     $("#PADLOCK").removeclass("fa-lock");
   }
