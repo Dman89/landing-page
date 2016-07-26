@@ -24,7 +24,7 @@ var toggleButton = function() {
     $("#PADLOCKBTN").html('<i id="PADLOCK" class="fa fa-unlock-alt"></i> Unlocking Your Potential');
       }
       else if (toggleLock == 1) {
-      $("#PADLOCKBTN").html('<i id="PADLOCK" class="fa fa-lock-alt"></i> Locking Your Potential');
+      $("#PADLOCKBTN").html('<i id="PADLOCK" class="fa fa-unlock-alt"></i> Locking Your Potential');
       }
     })
 }
